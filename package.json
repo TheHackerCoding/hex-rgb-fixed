@@ -6,7 +6,7 @@
 	"repository": "thehackercoding/hex-rgb-fixed",
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
-		"name": "TheHackerCoding",
+		"name": "TheHackerCoding"
 	},
 	"exports": "./index.js",
 	"engines": {
