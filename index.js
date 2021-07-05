@@ -4,7 +4,7 @@ const match6or8Hex = `#?[${hexCharacters}]{6}([${hexCharacters}]{2})?`;
 const nonHexChars = new RegExp(`[^#${hexCharacters}]`, 'gi');
 const validHexSize = new RegExp(`^${match3or4Hex}$|^${match6or8Hex}$`, 'i');
 
-export default function hexRgb(hex, options = {}) {
+module.exports = (hex, options = {}) => {
 	if (typeof hex !== 'string' || nonHexChars.test(hex) || !validHexSize.test(hex)) {
 		throw new TypeError('Expected a valid hex string');
 	}
