@@ -1,16 +1,13 @@
 {
-	"name": "hex-rgb",
-	"version": "5.0.0",
+	"name": "hex-rgb-fixed",
+	"version": "5.0.1",
 	"description": "Convert HEX color to RGBA",
 	"license": "MIT",
-	"repository": "sindresorhus/hex-rgb",
+	"repository": "thehackercoding/hex-rgb-fixed",
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "TheHackerCoding",
 	},
-	"type": "module",
 	"exports": "./index.js",
 	"engines": {
 		"node": ">=12"
